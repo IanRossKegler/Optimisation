@@ -19,6 +19,7 @@ execute [opt_scrit_effKVDF](https://github.com/Kvdf/Optimisation/blob/master/Sub
 
 execute [grad_descentOPTI](https://github.com/Kvdf/Optimisation/blob/master/Sub_system1/grad_descentOPTI.m) to run gradient descent algorithm.
 
-# Typical Performance 
+# Run with
+operation time *1.133 seconds* 
+MacOS, 2.2 GHz Intel Core i7, 2400 MHz DDR4. 
 
-Provide an indication of the typical performance (e.g. execution time, with indication of processor and operating system)
