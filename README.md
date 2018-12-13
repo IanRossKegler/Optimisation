@@ -16,7 +16,7 @@ Matlab 2018a in addition to Global Optimisation Toolbox https://uk.mathworks.com
 
 # Gradient Descent 
 
-execute (grad_descentOPTI.m)https://github.com/Kvdf/Optimisation/blob/master/Sub_system1/grad_descentOPTI.m to run gradient descent. 
+execute [grad_descentOPTI](https://github.com/Kvdf/Optimisation/blob/master/Sub_system1/grad_descentOPTI.m) to run gradient descent. 
 
 
 Refer to main script 
