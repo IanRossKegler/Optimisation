@@ -13,7 +13,7 @@ Matlab 2018a in addition to Global Optimisation Toolbox https://uk.mathworks.com
 
 # Fmincon and GlobalSearch
 
-execute [opt_scrit_effKVDF](https://github.com/Kvdf/Optimisation/blob/master/Sub_system1/opt_scrit_effKVDF.m) to run fmincon and GlobalSearch algorithm
+execute [opt_scrit_effKVDF](https://github.com/Kvdf/Optimisation/blob/master/Sub_system1/opt_scrit_effKVDF.m) to run fmincon and GlobalSearch algorithm.
 
 # Gradient Descent 
 
