@@ -1,5 +1,6 @@
 # Optimisation
 Optimisation of Dyson Library - DE4 Optimisation Project 
+Authors: I. Kegler, K. vd Fluit
 
 This code was used towards a paper outlining an optimisation of the Dyson Library for generalised acoustic performance. Both gradient based and non-gradient based algorithms were used to optimise the material properties of the walls, height of the ceiling, properties of added sound absorbing materials, number of receivers, position of source and receiver layout.
 
