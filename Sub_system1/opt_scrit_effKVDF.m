@@ -37,3 +37,12 @@ hold off
 
 
 
+%% Plotting the results
+f = figure;
+uit = uitable(f);
+d = {'Fmincon', 42, 0.08, 0.18, 3.49, 61, 0.15, false; 'GlobalSearch', 20, 0.08, 0.75, 3.38, 40, 0.148, true; 'SQP', 4, [], [],[], [],0.158, false};
+uit.Data = d;
+uit.Position = [20 20 700 80];
+uit.ColumnName = {'','Iterations','awi', 'abi', 'h', 'n', 'Optimal Value', 'Appropriate Material'};
+
+
