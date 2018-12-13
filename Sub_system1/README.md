@@ -1,9 +1,7 @@
 # Subsystem 1 - Optimisation
-Optimisation of Dyson Library - DE4 Optimisation Project 
-
-Authors: I. Kegler, K. vd Fluit
 
 This code was used towards a paper outlining an optimisation of the Dyson Library for generalised acoustic performance.
+
 # The Study 
 
 The goal of the study was to generate a novel seating layout for acoustic performance for the Dyson Library. The objective of the subsystem focuses on providing a solution to improve the acoustics of the Dyson School Library in terms related to average-squared error reverberation time. 
