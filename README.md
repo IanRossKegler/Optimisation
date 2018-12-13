@@ -13,13 +13,12 @@ Matlab 2018a in addition to Global Optimisation Toolbox https://uk.mathworks.com
 
 # Fmincon and GlobalSearch
 
+execute [opt_scrit_effKVDF](https://github.com/Kvdf/Optimisation/blob/master/Sub_system1/opt_scrit_effKVDF.m) to run fmincon and GlobalSearch algorithm
 
 # Gradient Descent 
 
-execute [grad_descentOPTI](https://github.com/Kvdf/Optimisation/blob/master/Sub_system1/grad_descentOPTI.m) to run gradient descent. 
+execute [grad_descentOPTI](https://github.com/Kvdf/Optimisation/blob/master/Sub_system1/grad_descentOPTI.m) to run gradient descent algorithm.
 
+# Typical Performance 
 
-Refer to main script 
-List any software/library prerequisites/dependencies needed to run the code
-Specify the main script
 Provide an indication of the typical performance (e.g. execution time, with indication of processor and operating system)
