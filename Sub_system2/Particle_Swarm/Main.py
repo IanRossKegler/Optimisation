@@ -2,7 +2,8 @@ from pyswarm import pso
 from Innit_Array import init_array
 from Args import func_args, width, length, chair_length, chair_width, exclusions, ub, lb, l1, r1, min_spl
 from Plot_Layout import plot_layout
-
+import time
+start = time.time()
 
 def layout_ave_delay(S, *args):
     global point_array
@@ -67,9 +68,9 @@ y = []
 
 xopt, fopt = pso(layout_ave_delay, lb, ub, f_ieqcons=geometric_constraints, args=func_args)
 
-print(xopt)
-print(fopt)
-print(len(x))
+print('source = ' + str(xopt))
+print('layout average delay = ' + str(fopt))
+print('runtime = ' + str(time.time()-start))
 
 plot_layout(x, y, xopt, length, width)
 
