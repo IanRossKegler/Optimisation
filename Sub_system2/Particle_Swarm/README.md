@@ -1,4 +1,4 @@
-# Subsystem 2 - COBYLA Optimisation
+# Subsystem 2 - Particle Swarm Optimisation
 
 Genetic algorith designed to optimise a reciever layout for a given source. Increasing the minimum required sound pressure level, number of points in a layout or the number of generations the algorithm iterates through, drasticly increasies its runtime, to the point where it becoumes impratical. 
 
