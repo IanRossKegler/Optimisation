@@ -2,7 +2,7 @@
 
 COBYLA implementation of optimisation of source with corresponding reciever layout. 
 
-# Prerequiste Libraries
+## Prerequiste Libraries
 
 scipy
 
