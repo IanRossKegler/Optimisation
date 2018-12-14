@@ -8,11 +8,11 @@ length = 15.084
 chair_width = 0.8
 chair_length = 0.8
 
-L1 = 80                     # Sound Pressure Level in dB at 1m
+L1 = 85                     # Sound Pressure Level in dB at 1m
 r1 = 1                      # distance from source of measured L1
 c20 = 343                   # speed of sound in air (m/s)
 min_spl = 50                # minimum sound pressure level
-n = 63                      # number of chairs
+n = 61                      # number of chairs
 des = 0                     # desired delay
 
 array_args = (width, length, chair_width, chair_length, exclusions)
