@@ -3,7 +3,6 @@ from Innit_Array import init_array
 from Args import width, length, chair_width, chair_length, exclusions, func_args, x0
 from Plot_Layout import plot_layout
 import time
-
 start = time.time()
 
 def layout_ave_delay(S, *args):
@@ -86,7 +85,8 @@ y = []
 res = minimize(layout_ave_delay, x0, func_args,  method='COBYLA', constraints=con,
                options={'rhobeg': 1.0, 'maxiter': 1000, 'disp': False, 'catol': 0.0002})
 
-print(res.x)
-print(len(x))
-print(time.time()-start)
+print('source = ' + str(res.x))
+print('layout average delay = ' + str(len(x)))
+print('runtime = ' + str(time.time()-start))
+
 plot_layout(x, y, res.x, length, width)
