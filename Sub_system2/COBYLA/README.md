@@ -1,4 +1,22 @@
-0.6610376834869385
+0.
 List any software/library prerequisites/dependencies needed to run the code
-Specify the main script
-Provide an indication of the typical performance (e.g. execution time, with indication of processor and operating system)
+
+# Subsystem 2 - COBYLA Optimisation
+
+COBYLA implementation of optimisation of source with corresponding reciever layout. 
+
+# Prerequiste Libraries
+
+scipy
+
+numpy 
+
+matplotlib
+
+# Main Script
+
+The Main.py script should be run.
+
+# Execution Time
+Execution time is approximately *0.661* seconds
+Windows 7, Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz
