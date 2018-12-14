@@ -3,6 +3,8 @@ from Point import Point
 import random
 from Args import size_of_population, best_sample, lucky_few, chair_rad, \
     width, length, source, exclusions, spl1, r1, c20, min_spl, generations
+import time
+start = time.time()
 
 
 def valid_point(population, point, source, chair_rad, exclusions, min_spl, spl1, r1):
@@ -164,7 +166,8 @@ def multiple_generation(number_of_generations, size_population, chair_rad, width
 
 layout = multiple_generation(generations, size_of_population, chair_rad, width, length, source, exclusions, min_spl, spl1, r1)
 
-print(len(layout[-1]))
+print('layout size = ' + str(len(layout[-1])))
+print('runtime = ' + str(time.time()-start))
 plot_layout(layout[-1], source, length, width)
 
 
